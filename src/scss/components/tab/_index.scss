@@ -1,0 +1,21 @@
+.tab-component {
+  &__header {
+    .tab {
+      background-color: $c-gray-100;
+
+      &.active {
+        background-color: $c-pink-500;
+        color: white;
+      }
+
+      &:not(.active) {
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: $c-gray-400;
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.font {
+  &:focus,
+  &:active {
+    opacity: 0.5;
+  }
+
+  &:first-child {
+    .font__square {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    .font__text {
+      margin-top: 1rem;
+    }
+
+    .font__abbr {
+      font-size: 2.25rem;
+    }
+  }
+
+  &__abbr {
+    font-size: 1.25rem;
+  }
+}

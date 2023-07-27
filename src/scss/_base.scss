@@ -1,0 +1,22 @@
+html, body {
+  font-family: $font-family;
+}
+
+.spinner {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  animation: spinner 0.75s linear infinite;
+  border-right-color: white;
+  border-bottom-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
